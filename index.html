@@ -3,39 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Character Kit</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+    <title>Character Kits Database</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
 
     <header>
-        <h1>Character Kit</h1>
+        <div class="container">
+            <h1>Character Kits Database</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#characters">Characters</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="character-info">
-            <h2>Character Name: Example Hero</h2>
-            <p><strong>Role:</strong> DPS</p>
-            <p><strong>Element:</strong> Fire</p>
-            <p><strong>HP:</strong> 3800</p>
-            <p><strong>ATK:</strong> 1300</p>
+        <section id="home">
+            <h2>Welcome to the Character Kits Database!</h2>
+            <p>Here, you'll find detailed information about various game characters and their gameplay kits.</p>
         </section>
 
-        <section id="abilities">
-            <h2>Abilities</h2>
-            <div class="ability">
-                <h3>Ability 1: Flame Strike</h3>
-                <p>Deals 150% ATK as fire damage to a single target.</p>
+        <section id="characters">
+            <h2>Character Kits</h2>
+            <!-- Character 1 -->
+            <div class="character-card">
+                <h3>Character Name 1</h3>
+                <p><strong>HP:</strong> 3800 | <strong>ATK:</strong> 1300</p>
+                <p><strong>Abilities:</strong><br> - Ability 1: Description of ability. <br> - Ability 2: Description of ability.</p>
             </div>
-            <div class="ability">
-                <h3>Ability 2: Inferno Burst</h3>
-                <p>Unleashes an area-of-effect fire attack, dealing 200% ATK as fire damage.</p>
+            <!-- Character 2 -->
+            <div class="character-card">
+                <h3>Character Name 2</h3>
+                <p><strong>HP:</strong> 4000 | <strong>ATK:</strong> 1500</p>
+                <p><strong>Abilities:</strong><br> - Ability 1: Description of ability. <br> - Ability 2: Description of ability.</p>
             </div>
+        </section>
+
+        <section id="about">
+            <h2>About This Website</h2>
+            <p>This website is a personal project for displaying character kits and gameplay information.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Your Name</p>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
     </footer>
 
 </body>
